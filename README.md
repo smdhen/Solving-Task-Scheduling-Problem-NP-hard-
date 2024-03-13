@@ -1,7 +1,7 @@
 # <center>Solving Task Scheduling Problem (NP hard)<center>
 
 ## Table of contents
-- [Project Overview (Definitions)](#project-overview--definitions-)
+- [Project Overview (Definitions)](#project-overview-definitions)
 - [Objectif 1 ](#objectif-1)
 - [Objectif 2](#objectif-2)
 - [la modélisation mathématique de 1er objectif](#la-modélisation-mathématique-de-1er-objectif)
@@ -10,7 +10,7 @@
 
 
 
-## Project Overview (Definitions)
+## Project Overview Definitions
 Les problèmes d'ordonnancement font partie de notre vie quotidienne !
 Ces problèmes concernent bien évidemment aussi de nombreuses activités
 des entreprises dans le monde industriel.
