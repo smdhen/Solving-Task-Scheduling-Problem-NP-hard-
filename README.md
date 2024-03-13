@@ -1,4 +1,15 @@
 # <center>Solving Task Scheduling Problem (NP hard)<center>
+
+## Table of contents
+- [Project Overview (Definitions)](#project-overview-(definitions))
+- [Objectif 1 ](#objectif-1)
+- [Objectif 2](#objectif-2)
+- [la modélisation mathématique de 1er objectif](#la-modélisation-mathématique-de-1er-objectif)
+- [la modélisation mathématique de 2 eme objectif](#la-modélisation-mathématique-de-2-eme-objectif)
+- [Références](#références)
+
+
+
 ## Project Overview (Definitions)
 Les problèmes d'ordonnancement font partie de notre vie quotidienne !
 Ces problèmes concernent bien évidemment aussi de nombreuses activités
@@ -21,7 +32,7 @@ Chaque tache peut se caractérisée par :
 2. Notions de la ressource : c’est le moyen par laquelle en réalise les
 tâches par exemple les processeurs, la mémoire…,
 
-### Objectif 1 
+### Objectif 1
 
 Dans ce cas, on considère n tâches à exécuter sur une seule ressource afin de
 minimiser l’objectif 1 : 1|| ∑Ui. (Somme des retards)
@@ -31,7 +42,7 @@ opératoire pi et une date de livraison di. Noter qu’après le démarrage de l
 première tâche aucun temps mort n’est autorisé sur la ressource (i.e. chaque
 solution réalisable doit commencer à t=0 et se terminer à t=∑pi).
 
-### Objectif 2 
+### Objectif 2
 
 Dans ce cas, on considère n tâches à exécuter sur une seule ressource afin de
 minimiser l’objectif 2 : 1|| ∑αiEi+ βiTi
@@ -78,7 +89,7 @@ Pour ’implémentation on a commencé à calculer f pour une seul tache puis 2
 … n tache (forward programming)
 
 
-### la modélisation mathématique de 2 eme objectif 
+### la modélisation mathématique de 2 eme objectif
 
 Dans ce deuxième objectif on s’intéresse à minimiser des pénalités d'avances
 et de retards sur une machine (weighted earliness-tardiness).la différence
