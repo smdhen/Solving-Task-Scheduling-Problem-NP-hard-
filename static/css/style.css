@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font: 1em sans-serif;
+    background-color: aqua;
+};
+[class~=ab]ab{
+    width: 80px;
+    height: 50px;
+    background: #e60689;
+    color: rgb(91, 41, 228);
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius:  3px;
+}
+button
+{
+ 
+    width: 62px;
+    height: 62px;
+    background: #5eb1e7;
+    color: #fff;
+    font-size: 20px;
+    
+  
+    text-align: center;
+    border-radius:  4px;
+}
