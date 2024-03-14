@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Document</title>
+    <style>
+        #ab{
+ 
+    width: 60px;
+    height: 60px;
+    background: #e7d4df;
+    color: rgb(91, 41, 228);
+    font-size: 20px;
+  
+
+    text-align: center;
+    border-radius:  0px;
+          }
+          #abb{
+ 
+ width: 60px;
+ height: 60px;
+ background: #10e4f3;
+ color: rgb(91, 41, 228);
+ font-size: 20px;
+
+
+ text-align: center;
+ border-radius:  0px;
+       }
+    </style>
+</head>
+<body>
+    <p>la valeyre de la finction fobject est  :{{data[0]}}</p>
+    <br>
+    {% for elm in data[1] %}
+        <button  id="ab">{{elm[1]}}</button><button >{{elm[0]}}</button><button id="abb">{{elm[2]}}</button>
+    {% endfor %}
+</body>
+</html>
